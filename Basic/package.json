@@ -1,0 +1,25 @@
+{
+  "name": "backend-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/notAanand/BackendLearn#readme",
+  "bugs": {
+    "url": "https://github.com/notAanand/BackendLearn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notAanand/BackendLearn.git"
+  },
+  "license": "ISC",
+  "author": "Anand singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
