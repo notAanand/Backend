@@ -1,4 +1,4 @@
-const asyncHandler=(fun)=>async(req,res,next)=>{
+const asyncHandler=(fun)=> async(req,res,next)=>{
     try {
         await fun(req,res,next)
     } catch (err) {
